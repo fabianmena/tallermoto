@@ -197,7 +197,7 @@ h2 .h2cont{
     body{
         background-color: rgb(49, 41, 47);
     }
-    .pie-pagina .grupo-1{
+      .pie-pagina .grupo-1{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
@@ -326,7 +326,7 @@ h2 .h2cont{
 
 }
 
-}
+
 
 
 
@@ -373,8 +373,8 @@ h2 .h2cont{
     }
     /* maps footer */
     .pie-pagina .grupo-1  .box .maps_footer{
-        width: 120px;
-        height: 200px;
+        width: 250px;
+        height: 290px;
         border-radius: 10%;
     }
     /* img como comenzo */
