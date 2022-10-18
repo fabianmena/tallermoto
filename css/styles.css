@@ -227,8 +227,8 @@ h2 .h2cont{
         height: 90px;
     }
     .img_asremota{
-        width: 200px;
-        height: 250px;
+        width: 120px;
+        height: 200px;
     }
              /* ancho img carrousel */
     .anchalt{
@@ -238,14 +238,14 @@ h2 .h2cont{
 
     /* tarjeta dl footer */
     .pie-pagina .grupo-1 .box figure img{
-        display: inline-block;
+        display: flex;
         text-align: center;
-        width: 80%;
+        width: 60%;
     }
     /* maps footer */
     .pie-pagina .grupo-1  .box .maps_footer{
-        width: 220px;
-        height: 300px;
+        width: 120px;
+        height: 200px;
         border-radius: 10%;
     }
     /* img como comenzo */
