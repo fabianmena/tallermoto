@@ -195,7 +195,7 @@ h2 .h2cont{
 @media screen and (max-width: 7680px) {
     
     body{
-        background-color: rgb(16, 12, 15);
+        background-color: rgb(49, 41, 47);
     }
 
 }
@@ -239,6 +239,7 @@ h2 .h2cont{
     /* tarjeta dl footer */
     .pie-pagina .grupo-1 .box figure img{
         display: flex;
+        flex-wrap:wrap;
         text-align: center;
         width: 60%;
     }
@@ -316,6 +317,19 @@ h2 .h2cont{
             text-align: center;
             justify-content: center;
     }
+
+    .titulos{
+        flex-wrap: wrap;
+        color: white;
+        text-align: center;
+    }
+    .sub_titulos {
+        flex-wrap: wrap;
+        color: white;
+    }
+    p {
+        flex-wrap: wrap;
+        color: white;
     
 
 }
