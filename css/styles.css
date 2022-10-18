@@ -204,7 +204,7 @@ h2 .h2cont{
 
 
 /* mediaquery para celular */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 300px) {
     .pie-pagina .grupo-1{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
