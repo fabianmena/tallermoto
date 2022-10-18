@@ -197,14 +197,6 @@ h2 .h2cont{
     body{
         background-color: rgb(49, 41, 47);
     }
-
-}
-
-
-
-
-/* mediaquery para celular */
-@media screen and (max-width: 300px) {
     .pie-pagina .grupo-1{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
@@ -329,7 +321,143 @@ h2 .h2cont{
     }
     p {
         flex-wrap: wrap;
+        color: white;}
+    
+
+}
+
+}
+
+
+
+
+/* mediaquery para celular */
+@media screen and (max-width: 400px) {
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+    body{
+        
+        background-color: rgb(10, 17, 17);
+        margin: 0%;
+        padding: 0%;
+        height: 100%;
+    }
+    .logo {
+        width: 240px;
+        height: 90px;
+    } 
+    .img {
+        width: 220px;
+        height: 90px;
+    }
+    .img_asremota{
+        width: 120px;
+        height: 200px;
+    }
+             /* ancho img carrousel */
+    .anchalt{
+        height: 400px;
+        
+    }
+
+    /* tarjeta dl footer */
+    .pie-pagina .grupo-1 .box figure img{
+        display: flex;
+        flex-wrap:wrap;
+        text-align: center;
+        width: 60%;
+    }
+    /* maps footer */
+    .pie-pagina .grupo-1  .box .maps_footer{
+        width: 120px;
+        height: 200px;
+        border-radius: 10%;
+    }
+    /* img como comenzo */
+    .comocomenzo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        
+    }
+    .comocomenzo__img img {
+        
+        max-width:240px;
+        max-height: 350px;
+        border-radius: 10%;
+        text-align: center;
+        justify-content: center;
+    }
+
+                /*boton styky wasap  */
+    .container-boton{
+        background-color: #111013;
+        border: 1px solid rgb(50, 154, 55);
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 10px;
+        right: 20px;
+        padding: 10px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+    }
+    .container-boton:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    .boton{
+        width: 40px;
+        transition: ease 1s;
+    }
+    .fotopre {
+        max-width:240px;
+        max-height: 350px;
+        border-radius: 10%;
+        text-align: center;
+        justify-content: center;
+    }
+    .fotoprep {
+        max-width:240px;
+        max-height: 350px;
+        border-radius: 10%;
+        text-align: center;
+        justify-content: center;
+    }
+    .fotoser {
+        max-width:240px;
+        max-height: 350px;
+        border-radius: 10%;
+        text-align: center;
+        justify-content: center;
+    }
+
+                                                    /*----revisar que no achica el mapa de google de contactos  */
+    .mapacon .mapcontacto {
+        max-width:240px;
+            max-height: 350px;
+            border-radius: 10%;
+            text-align: center;
+            justify-content: center;
+    }
+
+    .titulos{
+        flex-wrap: wrap;
         color: white;
+        text-align: center;
+    }
+    .sub_titulos {
+        flex-wrap: wrap;
+        color: white;
+    }
+    p {
+        flex-wrap: wrap;
+        color: white;}
     
 
 }
@@ -377,7 +505,7 @@ p {
     margin: 10px;
 }
 .texto{
-    background-color:black;
+    background-color:rgb(171, 47, 47);
     width: 300px;
     height: 300px;
     padding: 10px;
