@@ -347,7 +347,7 @@ h2 .h2cont{
         height: 100%;
     }
     .logo {
-        width: 240px;
+        width: 370px;
         height: 90px;
     } 
     .img {
@@ -355,8 +355,8 @@ h2 .h2cont{
         height: 90px;
     }
     .img_asremota{
-        width: 120px;
-        height: 200px;
+        width: 320px;
+        height: 300px;
     }
              /* ancho img carrousel */
     .anchalt{
@@ -373,7 +373,7 @@ h2 .h2cont{
     }
     /* maps footer */
     .pie-pagina .grupo-1  .box .maps_footer{
-        width: 250px;
+        width: 340px;
         height: 290px;
         border-radius: 10%;
     }
@@ -437,7 +437,7 @@ h2 .h2cont{
         justify-content: center;
     }
 
-                                                    /*----revisar que no achica el mapa de google de contactos  */
+                                                    /*----revisado   revisar que no achica el mapa de google de contactos  */
     .mapacon .mapcontacto {
         max-width:240px;
             max-height: 350px;
