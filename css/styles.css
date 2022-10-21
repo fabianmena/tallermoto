@@ -130,8 +130,9 @@ h2 .h2cont{
     width: 700px;
 }
                                                     /* footer footer */
-
+/*  
 .pie-pagina{
+    display: flex;
     width: 98%;
     height: auto;
     background-color: #110c0e;
@@ -189,7 +190,7 @@ h2 .h2cont{
     color: white;
 }
 
-
+*/
                                             /*media para tablet  */
 
 @media screen and (max-width: 7680px) {
@@ -332,7 +333,7 @@ h2 .h2cont{
 
 
 /* mediaquery para celular */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px)  {
     .pie-pagina .grupo-1{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
