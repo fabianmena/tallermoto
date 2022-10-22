@@ -18,9 +18,9 @@ body{
 .items{
     height: 100px;
 }    
-.logo{
-    height: 200PX;
-    width: 100%;
+.headlogo{
+    height: 150PX;
+    width: 98%;
 }  
 /* estiky de nav de index */ 
 .estiky{
@@ -33,6 +33,20 @@ body{
 .anchalt{
     
     height: 350px;
+}
+
+.asstencia .img_asremota{
+    margin: 50px;
+
+    width: 800px;
+    height: 600px;
+}
+/* img service html */
+
+ .imgser .ser{
+    margin: 100px;
+    width: 670px;
+    height: 600px;
 }
 
                                                      /* revisar para que modifique maps contacto */
@@ -190,7 +204,7 @@ h2 .h2cont{
 }
 
 
-                                            /*media para tablet  */
+                                                        /*media para tablet  */
 
 @media screen and (max-width: 7680px) {
     
@@ -218,9 +232,11 @@ h2 .h2cont{
         width: 220px;
         height: 90px;
     }
-    .img_asremota{
-        width: 120px;
-        height: 200px;
+    .asstencia .img_asremota{
+        margin: 50px;
+    
+        width: 800px;
+        height: 600px;
     }
              /* ancho img carrousel */
     .anchalt{
@@ -301,7 +317,7 @@ h2 .h2cont{
         justify-content: center;
     }
 
-                                                    /*----revisar que no achica el mapa de google de contactos  */
+    /*----revisar que no achica el mapa de google de contactos  */
     .mapacon .mapcontacto {
         max-width:240px;
             max-height: 350px;
@@ -331,7 +347,7 @@ h2 .h2cont{
 
 
 
-/* mediaquery para celular */
+                                                /* mediaquery para celular */
 @media (min-width: 320px) and (max-width: 575px) {
     .pie-pagina .grupo-1{
         width: 90%;
@@ -355,6 +371,12 @@ h2 .h2cont{
         height: 90px;
     }
     .img_asremota{
+        width: 320px;
+        height: 300px;
+    }
+    .asstencia .img_asremota{
+        margin: 10px;
+    
         width: 320px;
         height: 300px;
     }
@@ -429,12 +451,11 @@ h2 .h2cont{
         text-align: center;
         justify-content: center;
     }
-    .fotoser {
+    .imgser .ser {
+        margin: 40px;
         max-width:240px;
         max-height: 350px;
-        border-radius: 10%;
-        text-align: center;
-        justify-content: center;
+        
     }
 
                                                     /*----revisado   revisar que no achica el mapa de google de contactos  */
