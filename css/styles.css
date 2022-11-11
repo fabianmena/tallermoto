@@ -3,11 +3,13 @@
     padding:0px;/*margen interno*/
 }
 
+
 body{
     margin: 10px;
     background-color: #110c0e;
     
 }
+
 
     
 .caja__flex {
@@ -438,14 +440,14 @@ h2 .h2cont{
         transition: ease 1s;
     }
     .fotopre {
-        max-width:240px;
+        max-width:340px;
         max-height: 350px;
         border-radius: 10%;
         text-align: center;
         justify-content: center;
     }
     .fotoprep {
-        max-width:240px;
+        max-width:320px;
         max-height: 350px;
         border-radius: 10%;
         text-align: center;
@@ -453,7 +455,7 @@ h2 .h2cont{
     }
     .imgser .ser {
         margin: 40px;
-        max-width:240px;
+        max-width:340px;
         max-height: 350px;
         
     }
